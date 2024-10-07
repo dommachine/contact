@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtenir le PDF Gratuit!</title>
+</head>
+<body>
+
+<h2>Obtenir le PDF Gratuit!</h2>
+<form action="send_email.php" method="POST" onsubmit="redirectToDownload()">
+    <label for="name">Votre Nom :</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Votre email :</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <input type="submit" value="Envoyer">
+</form>
+
+<script>
+    function redirectToDownload() {
+        setTimeout(function() {
+            window.location.href = "https://1drv.ms/b/s!AvrkqQX0uaLbmYsGx3-B6q0342YyRA?e=c8SPde";
+        }, 1000); // Redirect after 1 second
+    }
+</script>
+
+</body>
+</html>
